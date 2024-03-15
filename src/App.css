@@ -71,10 +71,17 @@ p {
   gap: 20px;
   margin-top: 10px;
 }
+.list-container {
+  display: flex;
+  flex-direction: column;
+  /* gap: 20px;
+  margin-top: 10px; */
+}
+
 
 .len-container {
   display: flex;
   flex-direction: row;
-  gap: 35px;
-  margin-top: 10px;
+  /* gap: 35px; */
+  /* margin-top: 10px; */
 }

@@ -1,6 +1,5 @@
 // functions/helloWorld.js
-
-exports.handler = async (event, context) => {
+export const handler = async (event, context) => {
   try {
     // Process the incoming request
     const length = event.queryStringParameters && event.queryStringParameters.length ? event.queryStringParameters.length : 8;
