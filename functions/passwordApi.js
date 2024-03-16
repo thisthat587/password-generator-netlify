@@ -1,4 +1,3 @@
-// functions/helloWorld.js
 export const handler = async (event, context) => {
   try {
     // Process the incoming request
