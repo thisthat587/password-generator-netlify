@@ -73,12 +73,12 @@ function App() {
                 </div>
                 <div className='p-4 flex justify-left rounded-full shadow-lg bg-cyan-500 shadow-red-400 border items-center'>
                     <label
-                        className='font-bold text-xl mr-3'
+                        className='font-bold text-xl mr-7'
                         htmlFor="symbols"
                     >Symbols</label>
                     <input
                         type="checkbox"
-                        className='h-6 w-6 mr-6 ml-48 '
+                        className='h-6 w-6  ml-44 '
                         id='symbols'
                         checked={symbols}
                         onChange={(e) => {
